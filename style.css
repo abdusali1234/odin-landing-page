@@ -1,0 +1,34 @@
+.header,
+.main {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  padding: 5px;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+ justify-content: center;
+ color: #E5E7EB;
+ font-size: 18px;
+ gap: 16px;
+}
+.header-links {
+ color: #E5E7EB;
+ font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
