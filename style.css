@@ -83,17 +83,25 @@ ul {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
-}
-.info-container {
-  display: flex;
-  justify-content: center;
-  gap: 52px;
+  margin-bottom: 32px;
 }
 
-.info-img {
+#info-img1,
+#info-img2,
+#info-img3,
+#info-img4 {
   width: 100px;
   height: 100px;
 }
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+
+
 
 .info-text {
   max-width: 200px;
