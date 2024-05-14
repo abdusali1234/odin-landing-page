@@ -1,17 +1,23 @@
 .header,
-.main {
-  background-color: #1F2937;
-  color: #F9FAF8;
+.main,
+.quote-section,
+.call-to-action,
+.footer {
   display: flex;
-  padding: 5px;
+  padding: 24px;
 }
 
+.header,
+.main {
+  background-color: #1F2937;
+}
 .header {
   justify-content: space-between;
 }
 
 .header-logo {
   font-size: 24px;
+  color: #F9FAF8;
 }
 
 ul {
@@ -24,11 +30,74 @@ ul {
  font-size: 18px;
  gap: 16px;
 }
-.header-links {
+
+.secondary-text {
  color: #E5E7EB;
  font-size: 18px;
 }
 
+.main {
+  display: flex;
+  justify-content: space-around;
+  color: #F9FAF8;
+  gap: 48px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 8px;
+
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.main-button,
+.cto-button {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 6px 24px 6px 24px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.main-button {
+  border: none;
+}
+
+.cto-button {
+  border-color: #F9FAF8;
+}
+
+.info {
+  /*flex-direction: column;*/
+  text-align: center;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info-img {
+  width: 100px;
+  height: 100px;
+}
+
+.info-text {
+  max-width: 200px;
+}
 body {
   margin: 0;
 }
