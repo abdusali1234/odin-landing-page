@@ -1,7 +1,5 @@
 .header,
 .main,
-.quote-section,
-.call-to-action,
 .footer {
   display: flex;
   padding: 24px;
@@ -65,6 +63,7 @@ ul {
   padding: 6px 24px 6px 24px;
   border-radius: 10px;
   justify-content: center;
+  align-items: center;
 }
 
 .main-button {
@@ -73,11 +72,13 @@ ul {
 
 .cto-button {
   border-color: #F9FAF8;
+  border-style: solid;
 }
 
 .info {
   /*flex-direction: column;*/
   text-align: center;
+  padding: 24px;
 }
 
 .info-header {
@@ -95,17 +96,65 @@ ul {
   height: 100px;
 }
 
-.info-container {
+.pic-info-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 75px;
+}
+.info-container {
+  gap: 72px;
 }
 
 
 
 .info-text {
-  max-width: 200px;
+  max-width: 300px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 24px;
+}
+
+.quote-container {
+  display: flex;
+}
+.quote {
+  white-space: pre-line;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+.quotee {
+  display: flex;
+  justify-content: right;
+  margin-right: auto;
+  text-align: right;
+  padding-right: 216px;
+  font-weight: bold;
+}
+.call-to-action {
+  padding: 24px
+}
+.cto-container {
+  display: flex;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.cto-header {
+  font-size: 24px;
+}
+
+.cto-info-container {
+  display: flex;
 }
 
 .footer {
